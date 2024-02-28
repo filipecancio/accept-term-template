@@ -20,6 +20,7 @@
         "**/*.blg": true,
         "**/*.idx": true,
         "**/*.ilg": true,
+        "**/*.gz": true,
         "**/*.lof": true,
         "**/*.toc": true,
         "**/*.fdb_latexmk": true,
@@ -38,7 +39,8 @@
     "latex-workshop.latex.autoBuild.run": "onSave",
     "latex-workshop.view.pdf.viewer": "tab",
     "latex-workshop.intellisense.bibtexJSON.replace": {},
-    "latex-workshop.latex.pdfWatch.delay": 300,
+    "latex-workshop.latex.watch.pdf.delay": 300,
+    "latex-workshop.view.pdf.tab.editorGroup":"right",
     "latex-workshop.synctex.afterBuild.enabled": true,
     "latex-workshop.latex.recipes": [
         {
@@ -125,5 +127,8 @@
             ],
             "env": {}
         },
-    ]
+    ],
+    "[tex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    }
 }
